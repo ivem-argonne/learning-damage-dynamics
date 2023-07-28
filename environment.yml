@@ -1,13 +1,22 @@
-name: radpde
+name: raddyn
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python==3.10.*
+
+  # Standard data analysis libraries
   - pandas==1.*
   - scikit-learn==1.*
+  - scikit-image==0.20.*
   - matplotlib==3.*
-  - tqdm
+
+  # Standard presentation and organization tools
   - jupyterlab
-  - psutil
+  - tqdm
+
+  # Libraries not available via Anaconda
   - pip
+  - pip:
+    - trackpy
+    - papermill
