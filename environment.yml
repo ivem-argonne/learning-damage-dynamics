@@ -18,5 +18,6 @@ dependencies:
   # Libraries not available via Anaconda
   - pip
   - pip:
+    - jupyterlab-spellchecker
     - trackpy
     - papermill
