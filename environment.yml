@@ -21,3 +21,4 @@ dependencies:
     - jupyterlab-spellchecker
     - trackpy
     - papermill
+    - git+https://github.com/ivem-argonne/real-time-defect-analysis.git
